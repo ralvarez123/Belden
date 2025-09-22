@@ -1,0 +1,24 @@
+{
+  "name": "belden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralvarez123/Belden.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ralvarez123/Belden/issues"
+  },
+  "homepage": "https://github.com/ralvarez123/Belden#readme",
+  "devDependencies": {
+    "cypress": "^15.2.0"
+  }
+}
