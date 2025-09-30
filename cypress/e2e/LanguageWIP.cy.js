@@ -8,8 +8,8 @@ describe("Search Sugestions", () => {
   const BeldensPOM_BF = new BeldenPOM_BF();  
   BeldensPOM_BF.homePage();
   BeldensPOM_BF.Cookies().click();
-  BeldensPOM_BF.language().click()
-  BeldensPOM_BF.chooseLanguage.contains('French').click({ force: true });
+  BeldensPOM_BF.language().click().trigger('mouseover');
+  BeldensPOM_BF.chooseLanguage().contains('Deutsch (Deutschland)').click({ force: true });
   //cy.get('.dropdown-option').contains('French').click({ force: true });// Replace with the text of the option you want to select
 
   })

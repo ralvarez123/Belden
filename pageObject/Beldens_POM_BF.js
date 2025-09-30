@@ -90,17 +90,23 @@ export class BeldenPOM_BF {
      // language locators
    
       language(){
-      return cy.get(':nth-child(6) > .menu-top__link > .menu-top__link__inner');
+      return cy.get("nav.header__top li:nth-of-type(6) > span > span").click();
+      //cy.get(':nth-child(6) > .menu-top__link > .menu-top__link__inner');
      }
       
      chooseLanguage(){
-      return cy.get('.dropdown-option')
+      return cy.get("#\\{9EDDE0B6-C2D9-4B17-B405-D8BFF0BF9B01\\} > label").click();
+      
      }
 
+            
       wait(){
          return cy.wait(4000);;
         }
    }
+
+
+   
         
    
     
